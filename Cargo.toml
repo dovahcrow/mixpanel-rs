@@ -7,7 +7,7 @@ homepage = "http://github.com/doomsplayer/mixpanel-rs.git"
 repository = "http://github.com/doomsplayer/mixpanel-rs.git"
 readme = "README.md"
 keywords = ["mixpanel"]
-license = "mit"
+license = "MIT"
 
 [lib]
 path = "src/lib.rs"
