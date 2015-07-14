@@ -4,7 +4,7 @@ It's a [Mixpanel](https://mixpanel.com) data export [api](https://mixpanel.com/d
 
 Currently under heavily development
 
-## features:
+## Features:
 * [x] Authentication
 * Export
   * [x] export - get a "raw dump" of tracked events over a time period
@@ -35,3 +35,8 @@ Currently under heavily development
   * [ ] addiction - get data about how frequently people are performing events
 * People Analytics
   * [ ] engage - get data from People Analytics
+
+## Roadmaps
+* [ ] Implement all the basic features.
+* [ ] Change return type from un-parsed json object to struct.
+* [ ] Other apis, eg. track api
