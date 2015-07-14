@@ -1,7 +1,13 @@
 [package]
 name = "mixpanel"
 version = "0.1.0"
+description = "mixpanel api v2.0 for rust"
 authors = ["Wu Young <doomsplayer@gmail.com>"]
+homepage = "http://github.com/doomsplayer/mixpanel-rs.git"
+repository = "http://github.com/doomsplayer/mixpanel-rs.git"
+readme = "README.md"
+keywords = ["mixpanel"]
+license = "mit"
 
 [lib]
 path = "src/lib.rs"
