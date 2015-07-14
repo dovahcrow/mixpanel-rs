@@ -6,6 +6,6 @@ It's a [Mixpanel](https://mixpanel.com) data export [api](https://mixpanel.com/d
 Currently under heavily development
 
 * features:
-[x] Authentication
-[x] Export raw data
-[ ] Annotations
+* [x] Authentication
+* [x] Export raw data
+* [ ] Annotations
