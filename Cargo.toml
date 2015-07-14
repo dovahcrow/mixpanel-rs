@@ -1,0 +1,19 @@
+[package]
+name = "mixpanel"
+version = "0.1.0"
+authors = ["Wu Young <doomsplayer@gmail.com>"]
+
+[lib]
+path = "src/lib.rs"
+name = "mixpanel"
+
+[[bin]]
+path = "examples/example.rs"
+name = "example"
+
+[dependencies]
+hyper = "0.6.4"
+rust-crypto = "0.2.31"
+chrono = "0.2.15"
+rustc-serialize = "0.3.15"
+serde = "0.4.2"
