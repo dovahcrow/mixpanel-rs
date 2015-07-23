@@ -1,6 +1,6 @@
 [package]
 name = "mixpanel"
-version = "0.1.0"
+version = "0.1.1"
 description = "mixpanel api v2.0 for rust"
 authors = ["Wu Young <doomsplayer@gmail.com>"]
 homepage = "http://github.com/doomsplayer/mixpanel-rs.git"
