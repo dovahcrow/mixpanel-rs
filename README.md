@@ -38,5 +38,5 @@ Currently under heavy development
 
 ## Roadmaps
 * [ ] Implement all the basic features.
-* [ ] Change return type from un-parsed json object to struct.
+* [x] Change return type from un-parsed json object to struct.
 * [ ] Other apis, eg. track api
