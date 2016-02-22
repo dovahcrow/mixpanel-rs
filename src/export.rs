@@ -5,8 +5,7 @@ use MixPanel;
 
 use services::Service;
 
-use serde::json;
-use serde::json::from_str;
+use serde_json as json;
 use serde::de::{Deserialize,Deserializer,Visitor,self};
 use serde::de::MapVisitor;
 
@@ -90,7 +89,7 @@ pub struct ExportResultVisitor;
 impl Visitor for ExportResultVisitor {
     type Value = ExportResult;
     fn visit_unit<E>(&mut self) -> Result<ExportResult, E> where E: de::Error {
-        Err(de::Error::syntax_error())
+        Err(de::Error::syntax("error"))
     }
     fn visit_map<V>(&mut self, mut visitor: V) -> Result<ExportResult, V::Error> where V: MapVisitor {
         let mut output = ExportResult {..Default::default()};
@@ -168,7 +167,7 @@ macro_rules! set {
 impl Visitor for ExportPropertiesVisitor {
     type Value = ExportProperties;
     fn visit_unit<E>(&mut self) -> Result<ExportProperties, E> where E: de::Error {
-        Err(de::Error::syntax_error())
+        Err(de::Error::syntax("error"))
     }
     fn visit_map<V>(&mut self, mut visitor: V) -> Result<ExportProperties, V::Error> where V: MapVisitor {
         let mut output = ExportProperties {..Default::default()};
