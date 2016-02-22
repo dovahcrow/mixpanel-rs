@@ -2,6 +2,7 @@ extern crate crypto;
 extern crate hyper;
 extern crate chrono;
 extern crate serde;
+extern crate serde_json;
 
 use std::error::Error;
 use std::io::Read;
